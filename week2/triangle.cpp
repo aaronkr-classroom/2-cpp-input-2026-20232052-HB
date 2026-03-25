@@ -19,7 +19,7 @@ int main(void) {
 	cin >> size;
 
 	for (int i = 0; i < size; i++) {
-		for (int j = 0; j < size; j++) {
+		for (int j = 0; j < i; j++) {
 			cout << " ";
 		}
 		for (int j = 0; j < (2 * size) - 1 - (i * 2); j++){
